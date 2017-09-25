@@ -30,8 +30,8 @@ body{
 }
 
 h2{
-    font-family: mr de haviland;
-    font-size: 100px;
+    font-family: quicksand;
+    font-size: 80px;
     color: black;
     text-align: center;
     display: table-cell;
@@ -43,7 +43,8 @@ h2{
     top: 650px;
     background: #ebebeb;
     height: 500px;
-    font-family: raleway;
+    font-family: quicksand;
+    font-size: 20px;
 }
 
 .logo{
