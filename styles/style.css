@@ -26,7 +26,7 @@ html, body{
     text-shadow: 5px 10px 5px black;
     margin-bottom: 50px;
 }
-.button{
+#start .button{
     background: linear-gradient(45deg, rgba(255,133,112,0.6) 0%, rgba(255,94,185,0.65) 51%, rgba(230, 39, 125, 0.65) 100%);
     border-radius: 10px;
     padding: 9px 20px;
@@ -37,6 +37,38 @@ html, body{
 }
 
 /*HOME PAGE*/
+    /*header*/
+.hdcontainer{
+    width: 960px;
+    margin: 0 auto;
+}
+.header{
+    background: #111;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+.logo{
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+    padding-top: 20px
+        
+}
+.nav{
+    float: right;
+    font-family: quicksand;
+    letter-spacing: 3px;
+}
+
+/*banner*/
 #home .banner{
     height: 100vh;
     width: 100%;
@@ -56,6 +88,8 @@ html, body{
     display: table-cell;
     vertical-align: middle;
 }
+
+    /*Content*/
 #home .container{
     color: black;
     background-color: floralwhite;
