@@ -20,7 +20,7 @@ html, body{
     text-align: center;
 }
 #start h1{
-    color: floralwhite;
+    color: bisque;
     font: 900 50px 'quicksand', sans-serif;
     letter-spacing: 10px;
     text-shadow: 5px 10px 5px black;
@@ -28,12 +28,13 @@ html, body{
 }
 #start .button{
     border-radius: 10px;
-    font-family: quicksand;
-    color: floralwhite;
+    font-family: 'quicksand';
+    color: bisque;
     font-size: 135%;
     padding: 10px 20px;
-    border: solid floralwhite 3px;
+    border: solid bisque 3px;
     text-decoration: none;
+    
 }
 
 /*HOME PAGE*/
