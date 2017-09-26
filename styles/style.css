@@ -27,13 +27,13 @@ html, body{
     margin-bottom: 50px;
 }
 #start .button{
-    background: linear-gradient(45deg, rgba(255,133,112,0.6) 0%, rgba(255,94,185,0.65) 51%, rgba(230, 39, 125, 0.65) 100%);
     border-radius: 10px;
-    padding: 9px 20px;
-    color: bisque;
-    font: 30px 'quicksand', sans-serif;
+    font-family: quicksand;
+    color: floralwhite;
+    font-size: 135%;
+    padding: 10px 20px;
+    border: solid floralwhite 3px;
     text-decoration: none;
-    text-shadow: 0px 2px 4px black;
 }
 
 /*HOME PAGE*/
