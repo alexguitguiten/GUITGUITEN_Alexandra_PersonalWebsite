@@ -83,7 +83,7 @@ li{
     font-size: 60px;
     font-weight: 100;
     letter-spacing: 15px;
-    color: black;
+    color: floralwhite;
     text-shadow:5px 5px 5px black;
     text-align: center;
     display: table-cell;
@@ -104,6 +104,9 @@ li{
     height: 260px;
     border-radius: 50%;
 }
+
+
+
     /*Footer*/
 .foot{
     color: floralwhite;
