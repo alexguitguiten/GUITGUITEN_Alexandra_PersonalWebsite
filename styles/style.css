@@ -185,10 +185,20 @@ li{
     font-family: quicksand;
 }
 .social-icons{
-    font-size: 35px;
     margin-bottom: 80px;
-    color: #111;
     justify-content: space-around;
     display: flex;
     max-width: 500px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 35px;
+    color: #111;
+    width: 60px;
+    height: 60px;
+    transition: 0.4s all;
+    line-height: 58px;
+    background: floralwhite;
+    border-radius: 50%;
 }
