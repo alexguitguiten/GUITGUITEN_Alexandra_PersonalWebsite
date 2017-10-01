@@ -6,9 +6,13 @@ html, body{
     height: 100%;
 }
 
+
+
+
+
 /*STARTING PAGE*/
 #start{
-    background: url(../images/Start.jpg) no-repeat center center;
+    background: url(../images/city.jpg) no-repeat center center;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -26,16 +30,22 @@ html, body{
     text-shadow: 5px 10px 5px black;
     margin-bottom: 50px;
 }
+
 #start .button{
     border-radius: 10px;
     font-family: 'quicksand';
     color: floralwhite;
     font-size: 135%;
+    text-shadow: 3px 5px 2px black;
     padding: 10px 20px;
     border: solid floralwhite 3px;
     text-decoration: none;
-    box-shadow: 5px 10px 5px black;
+    box-shadow: 5px 10px 9px black;
 }
+
+
+
+
 
 /*HOME PAGE*/
     /*header*/
@@ -73,7 +83,7 @@ li{
 #home .banner{
     height: 100vh;
     width: 100%;
-    background-image: url(../images/banner2.jpg);
+    background-image: url(../images/banner.jpg);
     background-size: cover;
     display: table;
     background-attachment: fixed;
@@ -99,11 +109,26 @@ li{
     text-align: justify;
     font-family: quicksand;
     font-size: 22px;
+    padding-bottom: 110px;
 }
 #home .profile{
     height: 260px;
     border-radius: 50%;
 }
+
+
+#home .button{
+    border-radius: 10px;
+    font-family: 'quicksand';
+    color: #111;
+    font-size: 100%;
+    padding: 10px 20px;
+    border: solid #111 2px;
+    float: right;
+}
+
+
+
 
 
 /*ABOUT ME*/
@@ -135,27 +160,140 @@ li{
     font-size: 22px;
 }
 
-#about .skills{
-    color: black;
-    background-color: floralwhite;
-    text-align: center;
-    padding: 60px 155px;
-    font-family: quicksand;
-    font-size: 22px;
+#about .banner2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/coffee.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
 }
 
 #about .likes{
     color: black;
-    background-color: dimgray;
+    background-color: white;
     text-align: center;
     padding: 60px 155px;
     font-family: quicksand;
     font-size: 22px;
 }
+#about .button{
+    border-radius: 10px;
+    font-family: 'quicksand';
+    color: #111;
+    font-size: 100%;
+    padding: 10px 20px;
+    border: solid #111 2px;
+}
 
 
 
-    /*Footer*/
+
+
+/*PORTFOLIO*/
+#portfolio .banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/glasses.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#portfolio h1{
+    font-family: comfortaa;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: floralwhite;
+    text-shadow:5px 5px 5px black;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+#portfolio .skills{
+    color: black;
+    background-color: floralwhite;
+    padding: 60px 155px;
+    text-align: center;
+    padding-bottom: 0px;
+    font-family: quicksand;
+    font-size: 22px;
+}
+#portfolio .experience{
+    color: black;
+    background-color: floralwhite;
+    text-align: justify;
+    padding: 60px 155px;
+    text-align: center;
+    padding-bottom: 0px;
+    font-family: quicksand;
+    font-size: 22px;
+}
+#portfolio .education{
+    color: #111;
+    background-color: floralwhite;
+    padding: 60px 155px;
+    text-align: center;
+    font-family: quicksand;
+    font-size: 22px;
+}
+#portfolio h4{
+    margin-left: 200px;
+    margin-bottom: 0;
+}
+#portfolio p{
+    margin: 0;
+    font-size: 20px;
+}
+
+
+
+
+
+/*CONTACT*/
+#contact .banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/phone.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#contact h1{
+    font-family: comfortaa;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: floralwhite;
+    text-shadow:5px 5px 5px black;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+#contact .container{
+    color: black;
+    background-color: floralwhite;
+    text-align: center;
+    padding: 60px 155px;
+    text-align: justify;
+    font-family: quicksand;
+    font-size: 22px;
+    padding-bottom: 110px;
+}
+#contact p{
+    font-size: 16px;
+}
+form{
+    float: right;
+    padding-top: 35px;
+}
+.s-m a{
+    color:  #111;
+}
+
+
+
+
+
+            /*FOOTER*/
 .foot{
     color: floralwhite;
     background-color: #111;
@@ -164,7 +302,20 @@ li{
     font-family: quicksand;
 }
 .social-icons{
+    margin-bottom: 80px;
+    justify-content: space-around;
+    display: flex;
+    max-width: 500px;
+}
+
+.social-icons a{
+    text-decoration: none;
     font-size: 35px;
-    color: floralwhite;
-    margin-top: 80px;
+    color: #111;
+    width: 60px;
+    height: 60px;
+    transition: 0.4s all;
+    line-height: 58px;
+    background: floralwhite;
+    border-radius: 50%;
 }
