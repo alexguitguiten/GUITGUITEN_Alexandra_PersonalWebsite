@@ -306,6 +306,7 @@ form{
     justify-content: space-around;
     display: flex;
     max-width: 350px;
+    margin-top: 20px;
 }
 
 .social-icons a{
@@ -318,4 +319,8 @@ form{
     line-height: 29px;
     background: floralwhite;
     border-radius: 50%;
+}
+.flogo{
+    height: 50px;
+    padding-bottom: 15px;
 }
