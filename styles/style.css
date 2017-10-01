@@ -6,6 +6,10 @@ html, body{
     height: 100%;
 }
 
+
+
+
+
 /*STARTING PAGE*/
 #start{
     background: url(../images/city.jpg) no-repeat center center;
@@ -38,6 +42,10 @@ html, body{
     text-decoration: none;
     box-shadow: 5px 10px 9px black;
 }
+
+
+
+
 
 /*HOME PAGE*/
     /*header*/
@@ -101,7 +109,7 @@ li{
     text-align: justify;
     font-family: quicksand;
     font-size: 22px;
-    padding-bottom: 100px;
+    padding-bottom: 110px;
 }
 #home .profile{
     height: 260px;
@@ -118,6 +126,9 @@ li{
     border: solid #111 2px;
     float: right;
 }
+
+
+
 
 
 /*ABOUT ME*/
@@ -168,6 +179,9 @@ li{
 }
 
 
+
+
+
 /*RESUME*/
 #resume .banner{
     height: 100vh;
@@ -188,7 +202,34 @@ li{
     vertical-align: middle;
 }
 
-    /*Footer*/
+
+
+
+
+/*CONTACT*/
+#contact .banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/phone.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#contact h1{
+    font-family: comfortaa;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: floralwhite;
+    text-shadow:5px 5px 5px black;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+
+            /*FOOTER*/
 .foot{
     color: floralwhite;
     background-color: #111;
