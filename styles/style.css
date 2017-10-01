@@ -126,6 +126,36 @@ li{
     vertical-align: middle;
 }
 
+#about .facts{
+    color: black;
+    background-color: #111;
+    text-align: center;
+    padding: 60px 155px;
+    text-align: justify;
+    font-family: quicksand;
+    font-size: 22px;
+}
+
+#about .skills{
+    color: black;
+    background-color: dimgray;
+    text-align: center;
+    padding: 60px 155px;
+    text-align: justify;
+    font-family: quicksand;
+    font-size: 22px;
+}
+
+#about .likes{
+    color: black;
+    background-color: floralwhite;
+    text-align: center;
+    padding: 60px 155px;
+    text-align: justify;
+    font-family: quicksand;
+    font-size: 22px;
+}
+
 
     /*Footer*/
 .foot{
