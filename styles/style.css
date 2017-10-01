@@ -211,8 +211,8 @@ li{
     vertical-align: middle;
 }
 #portfolio .skills{
-    color: black;
-    background-color: floralwhite;
+    color: #111;
+    background-color: white;
     padding: 60px 155px;
     text-align: center;
     font-family: quicksand;
