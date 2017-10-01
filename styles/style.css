@@ -160,30 +160,38 @@ li{
     font-size: 22px;
 }
 
-#about .skills{
-    color: black;
-    background-color: floralwhite;
-    text-align: center;
-    padding: 60px 155px;
-    font-family: quicksand;
-    font-size: 22px;
+#about .banner2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/coffee.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
 }
 
 #about .likes{
     color: black;
-    background-color: dimgray;
+    background-color: white;
     text-align: center;
     padding: 60px 155px;
     font-family: quicksand;
     font-size: 22px;
+}
+#about .button{
+    border-radius: 10px;
+    font-family: 'quicksand';
+    color: #111;
+    font-size: 100%;
+    padding: 10px 20px;
+    border: solid #111 2px;
 }
 
 
 
 
 
-/*RESUME*/
-#resume .banner{
+/*PORTFOLIO*/
+#portfolio .banner{
     height: 100vh;
     width: 100%;
     background-image: url(../images/glasses.jpg);
@@ -191,7 +199,7 @@ li{
     display: table;
     background-attachment: fixed;
 }
-#resume h1{
+#portfolio h1{
     font-family: comfortaa;
     font-size: 30px;
     letter-spacing: 5px;
@@ -200,6 +208,41 @@ li{
     text-align: center;
     display: table-cell;
     vertical-align: middle;
+}
+#portfolio .skills{
+    color: black;
+    background-color: floralwhite;
+    padding: 60px 155px;
+    text-align: center;
+    padding-bottom: 0px;
+    font-family: quicksand;
+    font-size: 22px;
+}
+#portfolio .experience{
+    color: black;
+    background-color: floralwhite;
+    text-align: justify;
+    padding: 60px 155px;
+    text-align: center;
+    padding-bottom: 0px;
+    font-family: quicksand;
+    font-size: 22px;
+}
+#portfolio .education{
+    color: #111;
+    background-color: floralwhite;
+    padding: 60px 155px;
+    text-align: center;
+    font-family: quicksand;
+    font-size: 22px;
+}
+#portfolio h4{
+    margin-left: 200px;
+    margin-bottom: 0;
+}
+#portfolio p{
+    margin: 0;
+    font-size: 20px;
 }
 
 
@@ -225,6 +268,27 @@ li{
     display: table-cell;
     vertical-align: middle;
 }
+#contact .container{
+    color: black;
+    background-color: floralwhite;
+    text-align: center;
+    padding: 60px 155px;
+    text-align: justify;
+    font-family: quicksand;
+    font-size: 22px;
+    padding-bottom: 110px;
+}
+#contact p{
+    font-size: 16px;
+}
+form{
+    float: right;
+    padding-top: 35px;
+}
+.s-m a{
+    color:  #111;
+}
+
 
 
 
