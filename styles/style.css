@@ -244,6 +244,9 @@ li{
     margin: 0;
     font-size: 20px;
 }
+#portfolio .experience p{
+    text-align: justify;
+}
 
 
 
