@@ -101,10 +101,22 @@ li{
     text-align: justify;
     font-family: quicksand;
     font-size: 22px;
+    padding-bottom: 100px;
 }
 #home .profile{
     height: 260px;
     border-radius: 50%;
+}
+
+
+#home .button{
+    border-radius: 10px;
+    font-family: 'quicksand';
+    color: #111;
+    font-size: 100%;
+    padding: 10px 20px;
+    border: solid #111 2px;
+    float: right;
 }
 
 
