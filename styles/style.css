@@ -154,7 +154,7 @@ li{
 #about .facts{
     color: floralwhite;
     background-color: #111;
-    text-align: center;
+    text-align: justify;
     padding: 60px 155px;
     font-family: quicksand;
     font-size: 22px;
@@ -172,7 +172,7 @@ li{
 #about .likes{
     color: black;
     background-color: white;
-    text-align: center;
+    text-align: justify;
     padding: 60px 155px;
     font-family: quicksand;
     font-size: 22px;
@@ -214,19 +214,33 @@ li{
     background-color: floralwhite;
     padding: 60px 155px;
     text-align: center;
-    padding-bottom: 0px;
     font-family: quicksand;
     font-size: 22px;
 }
+#portfolio .banner2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/work.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
 #portfolio .experience{
-    color: black;
-    background-color: floralwhite;
+    color: floralwhite;
+    background-color: #111;
     text-align: justify;
     padding: 60px 155px;
     text-align: center;
-    padding-bottom: 0px;
     font-family: quicksand;
     font-size: 22px;
+}
+#portfolio .banner3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/hand.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
 }
 #portfolio .education{
     color: #111;
