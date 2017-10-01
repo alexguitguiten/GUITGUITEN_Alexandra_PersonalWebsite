@@ -8,7 +8,7 @@ html, body{
 
 /*STARTING PAGE*/
 #start{
-    background: url(../images/Start.jpg) no-repeat center center;
+    background: url(../images/city.jpg) no-repeat center center;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -26,15 +26,17 @@ html, body{
     text-shadow: 5px 10px 5px black;
     margin-bottom: 50px;
 }
+
 #start .button{
     border-radius: 10px;
     font-family: 'quicksand';
     color: floralwhite;
     font-size: 135%;
+    text-shadow: 3px 5px 2px black;
     padding: 10px 20px;
     border: solid floralwhite 3px;
     text-decoration: none;
-    box-shadow: 5px 10px 5px black;
+    box-shadow: 5px 10px 9px black;
 }
 
 /*HOME PAGE*/
@@ -73,7 +75,7 @@ li{
 #home .banner{
     height: 100vh;
     width: 100%;
-    background-image: url(../images/banner2.jpg);
+    background-image: url(../images/banner.jpg);
     background-size: cover;
     display: table;
     background-attachment: fixed;
@@ -131,7 +133,6 @@ li{
     background-color: #111;
     text-align: center;
     padding: 60px 155px;
-    text-align: justify;
     font-family: quicksand;
     font-size: 22px;
 }
@@ -141,7 +142,6 @@ li{
     background-color: floralwhite;
     text-align: center;
     padding: 60px 155px;
-    text-align: justify;
     font-family: quicksand;
     font-size: 22px;
 }
@@ -151,11 +151,30 @@ li{
     background-color: dimgray;
     text-align: center;
     padding: 60px 155px;
-    text-align: justify;
     font-family: quicksand;
     font-size: 22px;
 }
 
+
+/*RESUME*/
+#resume .banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/glasses.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#resume h1{
+    font-family: comfortaa;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: floralwhite;
+    text-shadow:5px 5px 5px black;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
 
     /*Footer*/
 .foot{
@@ -167,6 +186,9 @@ li{
 }
 .social-icons{
     font-size: 35px;
-    color: floralwhite;
-    margin-top: 80px;
+    margin-bottom: 80px;
+    color: #111;
+    justify-content: space-around;
+    display: flex;
+    max-width: 500px;
 }
