@@ -302,20 +302,20 @@ form{
     font-family: quicksand;
 }
 .social-icons{
-    margin-bottom: 80px;
+    margin-bottom: 10px;
     justify-content: space-around;
     display: flex;
-    max-width: 500px;
+    max-width: 350px;
 }
 
 .social-icons a{
     text-decoration: none;
-    font-size: 35px;
+    font-size: 20px;
     color: #111;
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     transition: 0.4s all;
-    line-height: 58px;
+    line-height: 29px;
     background: floralwhite;
     border-radius: 50%;
 }
